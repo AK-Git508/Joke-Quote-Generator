@@ -22,4 +22,6 @@ if st.button("Click for a Quote"):
     st.write(" ")
     st.write("~" + quote_data["a"])
 
+st.write(" ")
+st.write(" ")
 st.write("Made by Aariz Khan on 15/Aug/2025")
