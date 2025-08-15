@@ -29,6 +29,7 @@ if st.button("💡 Click for a Quote"):
     color_func(f"\"{quote_data['q']}\"\n\n~ {quote_data['a']}")
     st.write("---")
 
+st.write("---")
 st.write(" ")
 st.write(" ")
 st.write("Made by Aariz Khan on 15/Aug/2025")
