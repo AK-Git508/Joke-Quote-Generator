@@ -1,5 +1,6 @@
-#  Joke/Quote Generator
+# Joke/Quote Generator
 
+import streamlit as st
 import requests
 
 st.title("Joke/Quote Generator")
@@ -20,3 +21,4 @@ if st.button("Click for a Quote"):
     st.write(quote_data["q"])
     st.write(" ")
     st.write("~" + quote_data["a"])
+
