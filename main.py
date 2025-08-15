@@ -7,7 +7,7 @@ import random
 # Page configuration
 st.set_page_config(page_title="Joke/Quote Generator", page_icon="🎉", layout="centered")
 
-st.title("🎭 Joke/Quote Generator")
+st.title("Joke/Quote Generator")
 st.write("---")
 
 # Color functions list
