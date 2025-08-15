@@ -6,6 +6,8 @@ import requests
 st.title("Joke/Quote Generator")
 st.write(" ")
 
+st.write(" ")
+
 # Joke button
 if st.button("Click for a Joke"):
     response = requests.get("https://official-joke-api.appspot.com/random_joke")
